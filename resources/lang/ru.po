@@ -1,0 +1,798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Repository Hierarchy\n"
+"POT-Creation-Date: 2024-02-05 07:21+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: uolega@yandex.ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Sources without call number"
+msgstr "Источники без номера вызова"
+
+msgid "Default call number category"
+msgstr "Категория номера вызова по умолчанию"
+
+msgid "The source citation was copied to an internal clipboard."
+msgstr "Ссылка на источник была скопирована во внутренний буфер обмена."
+
+msgid ""
+"The source citation can be added to other facts/events by clicking on the "
+"source icon in the edit area of the fact/event."
+msgstr ""
+"Цитату из источника можно добавить к другим фактам/событиям, нажав на значок "
+"источника в области редактирования факта/события."
+
+msgid ""
+"Currently, you do not have the user rights to create new sources. In order "
+"to create new sources, you need to be logged in as a user."
+msgstr ""
+"Чтобы создавать новые источники, Вам необходимо войти в систему как "
+"пользователь."
+
+msgid "Create new sources"
+msgstr "Создавайте новые источники"
+
+msgid "EAD XML"
+msgstr "XML-настройки EAD"
+
+msgid "Finding aid as HTML"
+msgstr "Поиск помощи в виде HTML"
+
+msgid "Finding aid as PDF"
+msgstr "Поиск помощи в формате PDF"
+
+msgid "Repository Hierarchy"
+msgstr "Иерархия репозиториев"
+
+msgid ""
+"A hierarchical structured list of the sources of an archive based on the "
+"call numbers of the sources"
+msgstr ""
+"Иерархический структурированный список источников архива на основе "
+"телефонных номеров источников"
+
+#, php-format
+msgid "The preferences for the module “%s” were updated."
+msgstr "Настройки для модуля «%s» были обновлены."
+
+#, php-format
+msgid ""
+"Error while trying to update the custom module \"%s\" to the new module "
+"version %s: "
+msgstr ""
+"Ошибка при попытке обновить пользовательский модуль \"%s\" до новой версии "
+"модуля %s:"
+
+#, php-format
+msgid ""
+"The preferences for the custom module \"%s\" were sucessfully updated to the "
+"new module version %s."
+msgstr ""
+"Параметры пользовательского модуля \"%s\" были успешно обновлены до новой "
+"версии модуля %s."
+
+msgid ""
+"The Repository Hierarchy data fix cannot be used in the \"control panel\"."
+msgstr ""
+"Исправление данных иерархии репозитория нельзя использовать в «панели "
+"управления»."
+
+msgid ""
+"The data fix can be called from the user front end by clicking on the link "
+"to rename a call number category."
+msgstr ""
+"Исправление данных можно вызвать из интерфейса пользователя, щелкнув ссылку, "
+"чтобы переименовать категорию номера вызова."
+
+msgid "Error in custom module"
+msgstr "Ошибка в пользовательском модуле"
+
+msgid ""
+"Currently, you do not have the user rights to change call number categories."
+msgstr ""
+"В настоящее время у вас нет прав пользователя для изменения категорий "
+"номеров вызовов."
+
+msgid ""
+"In order to change call number categories, you need to have a \"Manager\" "
+"role for the corresponding tree."
+msgstr ""
+"Для того, чтобы изменить категории номеров звонков, вам необходимо иметь "
+"роль «Менеджер» для соответствующего дерева."
+
+#, php-format
+msgid ""
+"The custom module \"%s\" is activated in parallel to the %s custom module. "
+"This can lead to unintended behavior. If using the %s module, it is strongly "
+"recommended to deactivate the \"%s\" module, because the identical "
+"functionality is also integrated in the %s module."
+msgstr ""
+"Пользовательский модуль \"%s\" активируется параллельно с пользовательским "
+"модулем %s. Это может привести к нежелательному поведению. При использовании "
+"модуля %s настоятельно рекомендуется деактивировать модуль \"%s\", поскольку "
+"идентичная функциональность также интегрирована в модуль %s."
+
+#, php-format
+msgid ""
+"The custom module \"%s\" is activated in parallel to the %s custom module. "
+"This can lead to unintended behavior, because both of the modules have "
+"registered the same custom view \"%s\". It is strongly recommended to "
+"deactivate one of the modules."
+msgstr ""
+"Пользовательский модуль \"%s\" активируется параллельно с пользовательским "
+"модулем %s. Это может привести к нежелательному поведению, поскольку оба "
+"модуля зарегистрировали одно и то же пользовательское представление \"%s\". "
+"Настоятельно рекомендуется деактивировать один из модулей."
+
+msgid "Error"
+msgstr "Ошибка"
+
+#, php-format
+msgid ""
+"The custom module view \"%s\" is not registered as replacement for the "
+"standard webtrees view. There might be another module installed, which "
+"registered the same custom view. This can lead to unintended behavior. It is "
+"strongly recommended to deactivate one of the modules. The path of the "
+"parallel view is: %s"
+msgstr ""
+"Пользовательское представление модуля \"%s\" не зарегистрировано в качестве "
+"замены стандартного представления webtrees. Может быть установлен другой "
+"модуль, в котором зарегистрировано такое же пользовательское представление. "
+"Это может привести к нежелательному поведению. Настоятельно рекомендуется "
+"деактивировать один из модулей. Путь к параллельному представлению таков: %s"
+
+#, php-format
+msgid "Repository Hierarchy of: %s"
+msgstr "Иерархия репозитория: %s"
+
+msgid "Regular expression not accepted"
+msgstr "Регулярное выражение не принято"
+
+msgid "No valid delimiter or valid regular expression for delimiter found."
+msgstr ""
+"Не найден правильный разделитель или правильное регулярное выражение для "
+"разделителя."
+
+msgid "load delimiter expression from administrator"
+msgstr "загрузить выражение разделителя из администратора"
+
+msgid "none"
+msgstr "нет"
+
+msgid "save repository"
+msgstr "сохранить хранилище"
+
+msgid "load repository"
+msgstr "хранилище загрузки"
+
+msgid "save delimiter expression"
+msgstr "сохранить выражение разделителя"
+
+msgid "load delimiter expression"
+msgstr "загружать разделитель выражений"
+
+msgid "Could not load repository. No repository stored."
+msgstr "Не удалось загрузить хранилище. Репозиторий не сохранен."
+
+#, php-format
+msgid "The tree “%s” does not contain any repository"
+msgstr "Дерево \"%s\" не содержит ни одного хранилища"
+
+msgid ""
+"Could not load delimiter expression from administrator. No administrator "
+"delimiter expression stored."
+msgstr ""
+"Не удалось загрузить выражение разделителя от администратора. Не сохранено "
+"разделительное выражение администратора."
+
+msgid "Could not load delimiter expression. No delimiter expression stored."
+msgstr ""
+"Не удалось загрузить выражение разделителя. Не сохранено выражение "
+"разделителя."
+
+msgid "Error in delimiter expression"
+msgstr "Ошибка в выражении разделителя"
+
+msgid ""
+"Please note that the following characters need to be escaped if not used as "
+"meta characters in a regular expression"
+msgstr ""
+"Обратите внимание, что следующие символы должны быть экранированы, если они "
+"не используются в качестве метасимволов в регулярном выражении"
+
+msgid "For example, use"
+msgstr "Например, используйте"
+
+msgid "instead of"
+msgstr "вместо"
+
+msgid "or"
+msgstr "или"
+
+msgid "if the characters shall be used as plain text."
+msgstr "если символы должны использоваться как обычный текст."
+
+msgid ""
+"XML export settings not found. Please open EAD XML settings and provide "
+"settings."
+msgstr ""
+"Параметры экспорта XML не найдены. Пожалуйста, откройте настройки EAD XML и "
+"предоставьте настройки."
+
+msgid "Finding aid"
+msgstr "В поисках помощи"
+
+msgid "How to use delimiter expressions?"
+msgstr "Как использовать разделительные выражения?"
+
+msgid ""
+"A delimiter is a sequence of one or more characters for specifying the "
+"boundary between separate, independent regions in a text. Use delimiters to "
+"cut call numbers into chunks of call number categories. The call number "
+"categories will be used to construct a hierarchy of call numbers."
+msgstr ""
+"Разделитель - это последовательность из одного или нескольких символов для "
+"указания границы между отдельными, независимыми областями в тексте. "
+"Используйте разделители, чтобы разбить номера вызовов на куски категорий "
+"номеров вызовов. Категории номеров вызовов будут использоваться для "
+"построения иерархии номеров вызовов."
+
+msgid "Use a single delimiter, e.g."
+msgstr "Используйте одинарный разделитель, например."
+
+msgid "Use a set of delimiters separated by"
+msgstr "Используйте набор разделителей, разделенных символом"
+
+msgid "e.g."
+msgstr "например."
+
+msgid ""
+"Use a regular expressions, which contain the delimiter in brackets, e.g."
+msgstr ""
+"Используйте регулярные выражения, которые содержат разделитель в скобках, "
+"например."
+
+msgid "Fonds"
+msgstr "Фонд"
+
+msgid "Use a set of regular expressions separated by"
+msgstr "Используйте набор регулярных выражений, разделенных"
+
+msgid "Series"
+msgstr "Серии"
+
+msgid "Example"
+msgstr "Пример"
+
+msgid "Call numbers"
+msgstr "Номера вызовов"
+
+msgid "Delimiter expression"
+msgstr "Выражение-разделитель"
+
+msgid "Film Number"
+msgstr "Номер пленки"
+
+msgid "Film"
+msgstr "Фильм"
+
+msgid "Number"
+msgstr "Номер"
+
+msgid "Biography Number"
+msgstr "Номер биографии"
+
+msgid "Photo Number"
+msgstr "Номер фотографии"
+
+msgid "Delimiter expression:"
+msgstr "Выражение-разделитель:"
+
+msgid "Biography"
+msgstr "Биография"
+
+msgid "Photo"
+msgstr "Фотография"
+
+msgid "Important Note"
+msgstr "Важное замечание"
+
+msgid "if they should be recognized as plain characters."
+msgstr "если они должны быть распознаны как простые символы."
+
+msgid "Detailed description"
+msgstr "Подробное описание"
+
+msgid "Information about regular expressions"
+msgstr "Информация о регулярных выражениях"
+
+msgid "Help"
+msgstr "Помощник"
+
+msgid "The help text has not yet been written for this item."
+msgstr "Текст справки для этого элемента еще не написан."
+
+msgid "EAD XML settings"
+msgstr "XML-настройки EAD"
+
+msgid "The EAD XML settings have been changed"
+msgstr "Настройки EAD XML были изменены"
+
+msgid "Link to archival description in AtoM"
+msgstr "Ссылка на архивное описание в АтоМ"
+
+msgid "Call number"
+msgstr "Номер телефона"
+
+msgid "Gedcom-ID"
+msgstr "Номер GEDCOM (ID)"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Copy source citation to clipboard"
+msgstr "Копирование цитаты из источника в буфер обмена"
+
+msgid "Are you sure you want to delete the source citation?"
+msgstr "Вы уверены, что хотите удалить ссылку на источник?"
+
+msgid "Delete source citation"
+msgstr "Удалить ссылку на источник"
+
+msgid "Sort source citation - move up/down"
+msgstr "Сортировка ссылок на источники - перемещение вверх/вниз"
+
+msgid "Sort source citation - move up"
+msgstr "Сортировка цитат из источников - перемещение вверх"
+
+msgid "Sort source citation - move down"
+msgstr "Сортировка ссылок на источники - перемещение вниз"
+
+msgid "Paste source citation from clipboard"
+msgstr "Вставить цитату из буфера обмена"
+
+msgid "Generated on"
+msgstr "Создано"
+
+msgid "Language of description"
+msgstr "Язык описания"
+
+msgid "Table of Contents - Archival Arrangement"
+msgstr "Содержание - Архивное расположение"
+
+msgid "List of Sources"
+msgstr "Список источников"
+
+msgid "Create a source"
+msgstr "Создать новый источник"
+
+msgid "new"
+msgstr "новый"
+
+msgid "Finding aid title"
+msgstr "Название помощи в поиске"
+
+msgid "Country code"
+msgstr "Код страны"
+
+msgid "Main agency code"
+msgstr "Код основного агентства"
+
+msgid "Finding aid identifier"
+msgstr "Идентификатор информационного пособия"
+
+msgid "URL of the online finding aid"
+msgstr "URL-адрес онлайнового поискового пособия"
+
+msgid "Publisher"
+msgstr "Издатель"
+
+msgid "Explanations"
+msgstr "Объяснения"
+
+msgid "Title proper of the finding aid."
+msgstr "Основное заглавие помощи по поиску."
+
+msgid ""
+"Country name encoded according to ISO 3166-1, e.g. \"FR\" for \"France\"."
+msgstr ""
+"Название страны, закодированное в соответствии с ISO 3166-1, например. «FR» "
+"для «Франция»."
+
+msgid ""
+"Unique code identifying the archival institution maintaining the described "
+"collection; encoded according to ISO 15511 (ISIL). The main agency code is "
+"officially assigned to archives by a national authority. As a substitute "
+"value, the country code and \"-XXXXX\" might be chosen, e.g. FR-XXXXX"
+msgstr ""
+"Уникальный код, идентифицирующий архивное учреждение, хранящее описываемую "
+"коллекцию; кодируется в соответствии с ISO 15511 (ISIL). Код основного "
+"агентства официально присваивается архивам национальным органом. В качестве "
+"замещающего значения можно выбрать код страны и «-XXXXX», например. FR-XXXXX"
+
+msgid "Unique identifyer for the finding aid document."
+msgstr "Уникальный идентификатор для документа поисковой помощи."
+
+msgid "URL of the online finding aid (optional)"
+msgstr "URL-адрес онлайн-справочной службы по поиску (необязательно)"
+
+msgid "An URL, where the finding aid can be found oline."
+msgstr "URL-адрес, по которому можно найти справочную информацию в Интернете."
+
+msgid "Publisher (optional)"
+msgstr "Издатель (необязательно)"
+
+msgid "Name of the editing institution or the publishing company."
+msgstr "Название редакционного учреждения или издательской компании."
+
+msgid "EAD XML export settings"
+msgstr "Настройки экспорта EAD XML"
+
+msgid "Load settings from administrator"
+msgstr "Загрузить настройки от администратора"
+
+msgid "Search call number category"
+msgstr "Поиск по категории номера вызова"
+
+msgid "Category full name"
+msgstr "Полное название категории"
+
+msgid "Replace by"
+msgstr "Заменен на"
+
+msgid "Delimiter Expression for Call Numbers"
+msgstr "Выражение-разделитель для номеров вызовов"
+
+msgid "View and load/save options"
+msgstr "Просмотр и загрузка / сохранение параметров"
+
+msgid "view"
+msgstr "просмотр"
+
+msgid "Call Number Category"
+msgstr "Категория номера вызова"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Add new source"
+msgstr "Добавить новый источник"
+
+msgid "Settings for Repository Hierarchy list"
+msgstr "Настройки для списка иерархии репозитория"
+
+msgid "Show label before call number category."
+msgstr "Показать метку перед категорией номера вызова."
+
+msgid "Show titles of call number categories (if available from .po file)."
+msgstr ""
+"Показывать названия категорий номеров вызовов (если они доступны в файле ."
+"po)."
+
+msgid "Show help icon after label for delimiter expression."
+msgstr "Показать значок справки после метки для выражения-разделителя."
+
+msgid "Show help link after label for delimiter expression."
+msgstr "Показать ссылку справки после метки для выражения-разделителя."
+
+msgid ""
+"Use truncated categories. The call number categories will be truncated and "
+"shown without the trunk."
+msgstr ""
+"Используйте усеченные категории. Категории номеров вызовов будут усечены и "
+"показаны без магистрали."
+
+msgid ""
+"Use truncated call numbers. The call numbers will be truncated and shown "
+"without call number category."
+msgstr ""
+"Используйте усеченные номера вызовов. Номера вызовов будут усечены и "
+"показаны без категории номера вызова."
+
+msgid "Show date range for call number categories."
+msgstr "Показывать диапазон дат для категорий номеров вызовов."
+
+msgid ""
+"Allow renaming of call number categories. Will show an icon and a link for "
+"renaming."
+msgstr ""
+"Разрешить переименование категорий номеров вызовов. Отобразится значок и "
+"ссылка для переименования."
+
+msgid ""
+"Allow adding new sources to a call number category. Will show an icon and a "
+"link to add new sources."
+msgstr ""
+"Разрешить добавление новых источников в категорию номеров вызовов. "
+"Отобразится значок и ссылка для добавления новых источников."
+
+msgid "Show the title of the sources."
+msgstr "Покажите название источников."
+
+msgid "Show the XREF of the sources."
+msgstr "Покажите внешние ссылки на источники."
+
+msgid "Show the author of the sources."
+msgstr "Покажите автора источников."
+
+msgid "Show the date range of the sources."
+msgstr "Показать диапазон дат источников."
+
+msgid "Allow users to load stored delimiter expressions from administrator."
+msgstr ""
+"Разрешить пользователям загружать сохраненные выражения с разделителями от "
+"администратора."
+
+msgid "Settings for source citations"
+msgstr "Настройки для ссылок на источники"
+
+msgid "Source facts to show for sources within source citations"
+msgstr "Факты об источниках для отображения источников в ссылках на источники"
+
+msgid "Automatically expand the following facts within source citations"
+msgstr "Автоматически расширяйте следующие факты в цитатах из источников"
+
+msgid ""
+"Directly show media objects of sources in facts and not subordinated within "
+"source citations."
+msgstr ""
+"Непосредственно показывать медиа-объекты источников в фактах, а не "
+"подчиняться цитатам из источников."
+
+msgid ""
+"Enable copy/paste mechanism for source citations in the individual and "
+"family view."
+msgstr ""
+"Включите механизм копирования/вставки для ссылок на источники в "
+"индивидуальном и семейном просмотре."
+
+msgid ""
+"Enable delete mechanism for source citations in the individual and family "
+"view."
+msgstr ""
+"Включите механизм удаления ссылок на источники в индивидуальном и семейном "
+"просмотре."
+
+msgid ""
+"Enable sort mechanism for source citations in the individual and family view."
+msgstr ""
+"Включите механизм сортировки ссылок на источники в индивидуальном и семейном "
+"представлении."
+
+msgid "Settings for finding aid exports"
+msgstr "Настройки для поиска экспорта помощи"
+
+msgid "Include repository address within finding aid export."
+msgstr "Укажите адрес хранилища в экспорте finding aid."
+
+msgid "Include links to webtrees sources within finding aid export."
+msgstr "Включите ссылки на источники webtrees в поиск помощи при экспорте."
+
+msgid "Include table of contents within finding aid export."
+msgstr "Включите оглавление в экспорт поиска помощи."
+
+msgid "Show titles within table of contents in finding aid export."
+msgstr "Показывать заголовки в оглавлении при экспорте поиска помощи."
+
+msgid ""
+"Show links within table of contents in finding aid export (not available for "
+"PDF export)."
+msgstr ""
+"Показывать ссылки в оглавлении при экспорте справочной информации "
+"(недоступно для экспорта в формате PDF)."
+
+msgid "Settings for EAD XML exports"
+msgstr "Настройки для экспорта EAD XML"
+
+msgid "Allow users to load stored XML settings from administrator."
+msgstr ""
+"Разрешить пользователям загружать сохраненные настройки XML от "
+"администратора."
+
+msgid "Settings for Meta Repositories"
+msgstr "Настройки для мета-репозиториев"
+
+msgid "Use Meta Repositories."
+msgstr "Используйте мета-репозитории."
+
+msgid "Settings for linking to external archive management tools"
+msgstr "Настройки для подключения к внешним инструментам управления архивами"
+
+msgid ""
+"The following settings apply if AtoM (https://www.accesstomemory.org) is "
+"used as an external archive management system."
+msgstr ""
+"Следующие настройки применяются, если AtoM (https://www.accesstomemory.org ) "
+"используется в качестве внешней системы управления архивами."
+
+msgid "Show link to AtoM records within source citations"
+msgstr "Показывать ссылку на записи AtoM в ссылках на источники"
+
+#, php-format
+msgid ""
+"Settings for the creation of AtoM REST links (\"AtoM slugs\"), which can be "
+"used to link a webtrees source citation to the source view in an external "
+"AtoM archive management system. Only applies if the option \"%s\" is "
+"activated."
+msgstr ""
+"Настройки для создания ссылок AtoM REST (\"AtoM slugs\"), которые можно "
+"использовать для привязки ссылки на источник webtrees к представлению "
+"исходного кода во внешней системе управления архивами AtoM. Применяется "
+"только в том случае, если активирована опция \"%s\"."
+
+msgid "Use call numbers to create AtoM REST links (\"AtoM slugs\")"
+msgstr ""
+"Используйте номера вызовов для создания ссылок AtoM REST (\"AtoM slugs\")"
+
+msgid "Use source titles to create AtoM REST links (\"AtoM slugs\")"
+msgstr ""
+"Используйте исходные заголовки для создания ссылок AtoM REST (\"AtoM slugs\")"
+
+msgid "Base URL for AtoM"
+msgstr "Базовый URL-адрес для AtoM"
+
+msgid "Repositories, for which AtoM linking is used."
+msgstr "Репозитории, для которых используется привязка AtoM."
+
+msgid ""
+"Format treename:xref. A list of several entries can be separated by comma, e."
+"g. \"my_tree:X1765,my_tree:X2987\""
+msgstr ""
+"Имя дерева формата: внешняя ссылка. Список из нескольких записей может быть "
+"разделен запятой, например \"my_tree:X1765,my_tree:X2987\"."
+
+msgid "save"
+msgstr "сохранить"
+
+msgid "Media objects of source"
+msgstr "Медиа-объекты источника"
+
+#~ msgid ""
+#~ "Show repository facts (SOUR:REPO, SOUR:REPO:CALN) within source citations."
+#~ msgstr ""
+#~ "Tatsachen von Archiven (REPO, REPO:CALN) innerhalb von Quellen-Zitaten "
+#~ "anzeigen."
+
+#~ msgid ""
+#~ "Automatically expand repositories in source citations. Applies only if "
+#~ "\"Show additional source facts\" is activated."
+#~ msgstr ""
+#~ "Archive in Quellen-Zitaten automatisch erweitern. Wird nur angewendet, "
+#~ "wenn \"Zusätzliche Tatsachen innerhalb von Quellen-Zitaten anzeigen\" "
+#~ "aktiviert ist."
+
+#~ msgid ""
+#~ "Show further facts of sources (e.g. publication, notes, reference "
+#~ "numbers, i.e. SOUR:PUBL, SOUR:NOTE, SOUR:REFN, ...) within source "
+#~ "citations. Note: Repository facts and media objects can be selected by "
+#~ "separate settings."
+#~ msgstr ""
+#~ "Weitere Tatsachen von Quellen (Veröffentlichung, Notizen, Referenznummer, "
+#~ "d.h. SOUR:PUBL, SOUR:NOTE, SOUR:REFN, ...) innerhalb von Quellen-Zitaten "
+#~ "anzeigen. Hinweis: Tatsachen zu Archiven sowie Medienobjekte können über "
+#~ "separate Einstellungen ausgewählt werden."
+
+#~ msgid "Error during update of the module preferences"
+#~ msgstr "Fehler beim Aktualisieren der Modul-Einstellungen"
+
+#, php-format
+#~ msgid ""
+#~ "The folder name (%s) and the module name (%s) are not identical. Please "
+#~ "change the folder name to match the module name (%s). Otherwise, the "
+#~ "custom module might not work correctly."
+#~ msgstr ""
+#~ "Der Ordner-Name (%s) und der Modul-Name (%s) sind nicht identisch. Bitte "
+#~ "ändern Sie den Ordner-Namen so ab, dass er mit dem Modul-Namen (%s) "
+#~ "übereinstimmt. Andernfalls könnte es sein, dass das benutzerspezifische "
+#~ "Modul nicht korrekt funktioniert."
+
+#~ msgid ""
+#~ "You might have downloaded the development code (ZIP file from: Github/"
+#~ "Repository => Code => Download ZIP) instead of the release code (ZIP file "
+#~ "from: Github/Repository => Releases => Assets). Please install the relase "
+#~ "code."
+#~ msgstr ""
+#~ "Eventuell haben Sie eine Entwicklungsversion des Codes (ZIP Datei von: "
+#~ "Github/Repository => Code => Download ZIP) anstatt des Release-Codes (ZIP "
+#~ "Datei von: Github/Repository => Releases => Assets) heruntergeladen. "
+#~ "Bitte installieren Sie den Release-Code."
+
+#~ msgid "apeEAD XML"
+#~ msgstr "apeEAD XML"
+
+#~ msgid "DDB EAD XML"
+#~ msgstr "DDB EAD XML"
+
+#~ msgid "AtoM EAD XML"
+#~ msgstr "AtoM EAD XML"
+
+#~ msgid "Link to the website of the archive"
+#~ msgstr "Link zur Webseite des Archivs"
+
+#~ msgid "Generated by webtrees"
+#~ msgstr "Erzeugt von webtrees"
+
+#~ msgid "Base URL for webtrees"
+#~ msgstr "Basis-URL für webtrees"
+
+#~ msgid "Date range"
+#~ msgstr "Datumsbereich"
+
+#~ msgid ""
+#~ "Use call number of source to create AtoM slugs, i.e. permalinks or REST "
+#~ "links to view the source in AtoM"
+#~ msgstr ""
+#~ "Benutze die Quellen-Signatur um AtoM \"slugs\" zu erzeugen, d.h. "
+#~ "Permanent- oder REST-Links, mit welchen die Quellen in AtoM angezeigt "
+#~ "werden können"
+
+#~ msgid "Table of contents"
+#~ msgstr "Inhaltsverzeichnis"
+
+#~ msgid "Publication"
+#~ msgstr "Veröffentlichung"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#, fuzzy
+#~| msgid "Call number"
+#~ msgid "Call Number"
+#~ msgstr "Signatur"
+
+#~ msgid "load XML settings from administrator"
+#~ msgstr "XML Einstellungen von Administrator laden"
+
+#~ msgid "Download EAD XML"
+#~ msgstr "EAD XML herunterladen"
+
+#~ msgid "EAD XML settings (from admin)"
+#~ msgstr "EAD XML Einstellungen (von Admin)"
+
+#~ msgid "EAD XML seetings"
+#~ msgstr "EAD XML Einstellungen"
+
+#~ msgid "Dowload AtoM EAD XML"
+#~ msgstr "AtoM EAD XML herunterladen"
+
+#~ msgid "Hit the radio buttons to select or unselect the related options"
+#~ msgstr "Drücken Sie die Knöpfe, um einzelne Optionen an- oder abzuwählen"
+
+#~ msgid "download EAD XML for AtoM"
+#~ msgstr "EAD XML für AtoM herunterladen"
+
+#~ msgid "Call numbers:"
+#~ msgstr "Signaturen:"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Search/replace for call number categories"
+#~ msgstr "Suchen/Ersetzen für Signatur-Kategorien"
+
+#~ msgid "Change call numbers by searching/replacing call number categories"
+#~ msgstr "Ändern von Signaturen durch Suchen/Ersetzen von Signatur-Kategorien"
+
+#~ msgid "Replace call number category"
+#~ msgstr "Ersetze durch Signatur-Kategorie"
+
+#~ msgid "Archive Hierarchy"
+#~ msgstr "Archiv Hierarchie"
+
+#~ msgid "Repository Hierachy"
+#~ msgstr "Archiv Hierarchie"
+
+#~ msgid "Series-"
+#~ msgstr "Serie-"
